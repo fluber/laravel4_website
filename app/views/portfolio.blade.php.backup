@@ -1,0 +1,80 @@
+@extends('layout')
+
+@section('content')
+<ul class="nav nav-pills">
+    <li class="nav-item">
+	<a class "nav-link active" aria-current="page" href="#screw">金屬扣件</a>
+    </li>
+    <li class="nav-item">
+	<a class "nav-link" href="#wafer">半導體</a>
+    </li>
+</ul>
+<div class="row">
+   <div class="col-xs-12 col-sm-12 col-md-12" >
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="panel-title">金屬扣件業視覺檢測設備-視覺檢測系統</h3>
+            </div>
+            <div class="panel-body">
+<iframe width="669" height="658" src="https://www.youtube.com/embed/kNnnKljKJ54" title="電容量測" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="panel-footer">
+                <div class="row">
+                <p>
+                    <font size="4" color="#3c763d">檢測項目</font>
+                </p>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4 col-sm-4 col-md-4">
+                        <ul>
+                            <li>高度、寬度</li>
+                            <li>孔徑</li>
+                            <li>高度差異</li>
+                            <li>寬度差異</li>
+                            <li>孔徑差異</li>
+                            <li>四角螺帽對邊對角</li>
+                            <li>六角螺帽對邊對角</li>
+                            <li>同心度</li>
+                            <li>真圓度</li>
+                        </ul> 
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4">
+                        <ul>
+                            <li>牙外徑</li>
+                            <li>牙底徑</li>
+                            <li>牙距</li>
+                            <li>牙角</li>
+                            <li>牙品質</li>
+                            <li>360度牙傷</li>
+                            <li>正反牙</li>
+                        </ul> 
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4">
+                        <ul>
+                            <li>表面瑕疪</li>
+                            <li>毛刺開裂</li>
+                            <li>有無電鍍</li>
+                            <li>有無印記</li>
+                            <li>斷針、塞孔</li>
+                            <li>有無焊點</li>
+                        </ul> 
+                    </div>
+                 <div>
+                 <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                       <p>
+                          <font size="4" color="#3c763d">案例說明</font>
+                       <p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                       <p>
+                          本系統提供金屬的螺絲及螺帽的外觀及尺寸的光學檢測功能，採用Halcon影像函式庫及Vistual Studio C#工具，經半年的開發時間，， 其檢測速度依檢測物大小及送料情況而有所不同，目前實際最快可到800 PPM，內部實測最高可到1200PPM，目前此系統自2012年運行至今，目前銷售到台灣、中國、韓國、泰國、西班牙、馬來西牙、德國、土耳其等國家，本公司累積大量的視覺檢測及電控整合經驗，我們的視覺檢測系統開發服務，可提供貴公司的檢測需求客製化設計，並達到快速檢測驗証、專業的機電整合系統開發服務。
+                       <p>
+                    </div>
+
+                 </div>
+            </div>
+        </div>
+   </div>
+</div>
+@stop

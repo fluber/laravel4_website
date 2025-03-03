@@ -1,0 +1,40 @@
+/bootstrap/compiled.php
+/vendor
+composer.phar
+composer.lock
+.env.*.php
+.env.php
+.DS_Store
+Thumbs.db
+
+# Node dependencies
+node_modules/
+public/hot
+public/storage
+public/mix-manifest.json
+public/js/*.map
+public/css/*.map
+
+# Laravel specific
+/vendor/
+.env
+.env.*.local
+.env.testing
+.env.production
+/storage/
+bootstrap/cache/
+*.log
+*.sqlite
+
+# IDE/editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Composer dependencies
+composer.lock
+
+# PHPStorm & Xdebug
+.phpunit.result.cache
+.phpstorm.meta.php
