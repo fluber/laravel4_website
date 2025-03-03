@@ -54,11 +54,11 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'www.winerva.com',
+			'host'      => 'www.example.com',
             'port'      => '2901',
 			'database'  => 'winervadb',
-			'username'  => 'www_data',
-			'password'  => 'www_data@123',
+			'username'  => 'www_user',
+			'password'  => 'www_user@password',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
